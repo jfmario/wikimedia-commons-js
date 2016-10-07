@@ -8,3 +8,9 @@ if ( args.shift () == 'dailypic' )
     getter.wikimediaCommons.getDailyFeaturedPicture (
         path.resolve ( __dirname, 'output', 'latest.jpg' ) );
 }
+
+this.dailypic () = function ()
+{
+    getter.wikimediaCommons.getDailyFeaturedPicture (
+        path.resolve ( __dirname, 'output', 'latest.jpg' ) );
+};
