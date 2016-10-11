@@ -9,7 +9,8 @@
   "author": "John F Marion",
   "license": "ISC",
   "dependencies": {
-      "cheerio": "latest",
-      "request": "latest"
+    "cheerio": "latest",
+    "request": "latest",
+    "yamljs": "^0.2.8"
   }
 }
